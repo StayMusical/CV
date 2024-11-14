@@ -8,6 +8,7 @@ body {
     color: black;
     width: 100%; 
     height: 3640px;
+    overflow-x: hidden;
 }
 #content {
   min-height: 100%;
@@ -47,7 +48,7 @@ html {
     width: 100%;
     flex-shrink: 0; 
     align-items: center;
-    gap: 198px;
+    gap: 260px;
     font-family: "JetBrains Mono";
     font-size: 0.9em;
     font-style: normal;
@@ -307,7 +308,10 @@ html {
     width: 327.426px;
     z-index: 11;
   }
-
+.everything{
+  height: 2870px;
+  margin-top: 100px;
+}
   .frame-1 {
     display: flex;
     flex-direction: column;
@@ -319,7 +323,7 @@ html {
     height: 1001px;
     left: 185px;
     z-index: 4;
-    top: 860px;
+    top: 930px;
 }
   .frame-2 {
     display: flex;
@@ -978,11 +982,10 @@ html {
     flex-wrap: nowrap;
     gap: 10px;
     position: absolute;
-    width: 298px;
     height: 66px;
-    top: 3465px;
-    left: 608px;
-    padding: 12px 17px 12px 31px;
+    top: 3540px;
+    left: 634px;
+    padding: 12px 31px 12px 31px;
     cursor: pointer;
     background: #000000;
     border: none;
@@ -994,7 +997,6 @@ html {
     flex-shrink: 0;
     gap: 9px;
     position: relative;
-    width: 237px;
     z-index: 1;
   }
   .to-portfolio {
@@ -1003,17 +1005,18 @@ html {
     justify-content: flex-start;
     flex-shrink: 0;
     flex-basis: auto;
-    position: relative;
-    width: 211px;
     height: 37px;
     color: #ffffff;
     font-family: JetBrains Mono, var(--default-font-family);
     font-size: 28px;
     font-weight: 800;
     line-height: 36.96px;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     z-index: 2;
+  }
+  .topo{
+    text-decoration: none;
   }
   .arrow {
     display: flex;
@@ -1053,7 +1056,7 @@ html {
     no-repeat center;
   background-size: cover;
   z-index: 5;
-  top: 1990px;
+  top: 2050px;
 
 }
 .frame-1001 {
@@ -1322,7 +1325,7 @@ html {
   position: absolute;
   width: 1512px;
   height: 1055.5px;
-  top: 128px;
+  top: 2120px;
   left: 0;
   background: url(./assets/images/0c5d0e98c78bd2fd333c93d3849c88b6c8937122.png)
     no-repeat center;
@@ -1330,3 +1333,58 @@ html {
 }
 
 
+.vector-1d {
+  position: absolute;
+  width: 626.911px;
+  height: 228.5px;
+  top: 613.5px;
+  left: 908px;
+  background: url(./assets/images/c11ff852-2e87-472c-8b6f-70b7a4a080d1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.ellipse-1e {
+  position: absolute;
+  width: 385px;
+  height: 385px;
+  top: 666px;
+  left: 1240px;
+  background: url(./assets/images/20d8d930-7795-4191-9c25-3c1929b8b218.png)
+    no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.vector-1f {
+  position: absolute;
+  width: 780.806px;
+  height: 128.564px;
+  top: 713.436px;
+  background: url(./assets/images/fc9ea38b-5e1c-495f-914e-517b309340a4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index:
+   3;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; 
+}
+.contact-item1 {
+  display: flex; 
+  align-items: center; 
+}
+
+.contact-item img {
+  margin-right: 5px; 
+}
+.email-img{
+  width: 22px;
+  height: 15px;
+}
+.phone-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
